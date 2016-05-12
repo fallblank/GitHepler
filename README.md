@@ -6,3 +6,5 @@ add、commit、push等。一直想好好弄清楚git，今天终于开始了（�
 - 创建Git仓库：git init
 - 提交修改到缓冲区：git add <file>
 - 提交到git仓库：git commot -m "description"
+- 查看当前状态：git status</br>
+这条命令会在实际中频繁使用，它能查看到你在git的工作区的各种操作，比如增加/删除/修改等</br>
