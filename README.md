@@ -15,3 +15,7 @@ add、commit、push等。一直想好好弄清楚git，今天终于开始了（�
 HEAD表示当前分支的最新版，HEAD^表示前一版本，HEAD^^表示前两个版本，以此内推。HEAD～（n）前n个版本。更一般的方法是用版本散列值。
 - 操作日志：git reflog</br>
 git reset --hard \<版本号\>后，用git log不会显示回退版本后的信息，需要用git reflog去找回。
+- 撤销修改，但未提交缓存区：git checkout -- \<file\>
+- 撤销修改，提交到缓存区但没commit：git reset HEAD <\file\>
+- 撤销修改，commit但未push到远程库：版本回退。
+- 撤销修改，已push到远程库：GG，祈祷没捅娄子吧！
