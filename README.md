@@ -23,7 +23,7 @@ git reset --hard \<版本号\>后，用git log不会显示回退版本后的信�
 - 误删除：git checkout --\<file\>
 
 ## Git联机篇：
-Git于GitHub搭配食用更佳哟！<br>
+Git与GitHub搭配食用更佳哟！<br>
 这里主要讲如何讲已有的本地git托管到github，或者从github开始一项工作。
 
 - 将本地项目托管到GitHub<br>
