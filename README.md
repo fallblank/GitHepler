@@ -27,14 +27,14 @@ Git于GitHub搭配食用更佳哟！<br>
 这里主要讲如何讲已有的本地git托管到github，或者从github开始一项工作。
 
 - 将本地项目托管到GitHub<br>
-在GitHub上新建一个空白的仓库，然后记下复制下地址（HTTP or SSH），然后本地添加远程仓库地址。
-1. git remote add origin \<address\>
-2. git pull origin master
-3. git push orgin master</br>
+在GitHub上新建一个空白的仓库，然后记下复制下地址（HTTP or SSH），然后本地添加远程仓库地址。</br>
+1.git remote add origin \<address\></br>
+2.git pull origin master<br>
+3.git push orgin master</br>
 这里默认远程仓库叫origin，pull和push都对master分支操作。</br>
 
--从GitHub开始一项工作
-先在GitHub上建好仓库，然后clone到本地，接着进行项目操作，最后push到GitHub。
-1. git clone \<address\>
-2. git push origin master</br>
+- 从GitHub开始一项工作
+先在GitHub上建好仓库，然后clone到本地，接着进行项目操作，最后push到GitHub。</br>
+1.git clone \<address\><br>
+2.git push origin master</br>
 默认remote地址是指定好的。
