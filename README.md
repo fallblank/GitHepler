@@ -8,3 +8,6 @@ add、commit、push等。一直想好好弄清楚git，今天终于开始了（�
 - 提交到git仓库：git commot -m "description"
 - 查看当前状态：git status</br>
 这条命令会在实际中频繁使用，它能查看到你在git的工作区的各种操作，比如增加/删除/修改等</br>
+- 查看修改差异：git diff \<file\>
+- 查看已提交版本：git log</br>
+为了方便查看版本信息，有一些常用的修饰符：--graph，图像化的方式显示版本迭代路线；--pretty=oneline 一行显示；--abbrev-commit仅显示commit信息......
