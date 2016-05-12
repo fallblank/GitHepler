@@ -38,3 +38,13 @@ Git与GitHub搭配食用更佳哟！<br>
 1.git clone \<address\><br>
 2.git push origin master</br>
 默认remote地址是指定好的。
+
+## Git高级篇
+主要关于分支管理，包括分支创建、合并、删除、冲突，多人协助以及分支策略。</br>
+- 分支创建:git branch \<name\>
+- 切换分支：git checkout \<name\>
+- 创建和切换：git checkout -b \<name\>
+- 分支查看：git branch
+- 分支删除: git branch -d \<name\>
+- 分支合并：git merge [optioal arg] \<name\></br>
+分支的合并默认是采用first-forward策略，这只能在只有被合并分支做出修改，而合并分支没有修改的情况。如果两个分支都有修改就要进行手动解决冲突。还有就是first-forward会丢失分支信息，对于很小的信息修改采用这种方法。更一般的是使用修饰符：--no-ff -m "commit description" 这会进行一次commit操作。</br>
