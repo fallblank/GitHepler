@@ -7,11 +7,11 @@ add、commit、push等。一直想好好弄清楚git，今天终于开始了（�
 - 提交修改到缓冲区：git add \<file\>
 - 提交到git仓库：git commot -m "description"
 - 查看当前状态：git status</br>
-这条命令会在实际中频繁使用，它能查看到你在git的工作区的各种操作，比如增加/删除/修改等</br>
+这条命令会在实际中频繁使用，它能查看到你在git的工作区的各种操作，比如增加/删除/修改等
 - 查看修改差异：git diff \<file\>
 - 查看已提交版本：git log</br>
 为了方便查看版本信息，有一些常用的修饰符：--graph，图像化的方式显示版本迭代路线；--pretty=oneline 一行显示；--abbrev-commit仅显示commit信息......
-- 版本回退：git reset --hard \<版本号\>
+- 版本回退：git reset --hard \<版本号\></br>
 HEAD表示当前分支的最新版，HEAD^表示前一版本，HEAD^^表示前两个版本，以此内推。HEAD～（n）前n个版本。更一般的方法是用版本散列值。
-- 操作日志：git reflog
+- 操作日志：git reflog</br>
 git reset --hard \<版本号\>后，用git log不会显示回退版本后的信息，需要用git reflog去找回。
