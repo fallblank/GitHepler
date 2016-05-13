@@ -11,6 +11,8 @@ add、commit、push等。一直想好好弄清楚git，今天终于开始了（�
 - 查看修改差异：git diff \<file\>
 - 查看已提交版本：git log</br>
 为了方便查看版本信息，有一些常用的修饰符：--graph，图像化的方式显示版本迭代路线；--pretty=oneline 一行显示；--abbrev-commit仅显示commit信息......
+- 缓存区内容备份：git stash </br>
+在当前分支切换别的分支，但当前分支的缓存区有内容待commit时可以使用这个命令将当前分支的内容进行备份，然后切换到需要工作的分支，完成其他分支后切换回来，然后通过git stash list查看备份列表，git stash apply回复。(git stash pop等都可以)</br>
 - 版本回退：git reset --hard \<版本号\></br>
 HEAD表示当前分支的最新版，HEAD^表示前一版本，HEAD^^表示前两个版本，以此内推。HEAD～（n）前n个版本。更一般的方法是用版本散列值。
 - 操作日志：git reflog</br>
