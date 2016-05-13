@@ -27,7 +27,6 @@ git reset --hard \<版本号\>后，用git log不会显示回退版本后的信�
 ## Git联机篇：
 Git与GitHub搭配食用更佳哟！<br>
 这里主要讲如何讲已有的本地git托管到github，或者从github开始一项工作。
-
 - 将本地项目托管到GitHub<br>
 在GitHub上新建一个空白的仓库，然后记下复制下地址（HTTP or SSH），然后本地添加远程仓库地址。</br>
 1.git remote add origin \<address\></br>
@@ -50,3 +49,6 @@ Git与GitHub搭配食用更佳哟！<br>
 - 分支删除: git branch -d \<name\>
 - 分支合并：git merge [optioal arg] \<name\></br>
 分支的合并默认是采用first-forward策略，这只能在只有被合并分支做出修改，而合并分支没有修改的情况。如果两个分支都有修改就要进行手动解决冲突。还有就是first-forward会丢失分支信息，对于很小的信息修改采用这种方法。更一般的是使用修饰符：--no-ff -m "commit description" 这会进行一次commit操作。</br>
+
+##附录
+git-cheatsheet：常见的Git命令集
